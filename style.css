@@ -26,6 +26,41 @@ NAVBAR
   justify-content: space-between;
   align-items: center;
 }
+.slide-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 10px;
+}
+
+.slide-card {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 1 / 1 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  background-color: #ffffff;
+  border: 22px solid #2a1f07;
+  border-radius: 28px;
+  padding: 20px;
+  color: #2a1f07;
+  overflow: hidden;
+}
+
+.slide-card h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+  color: #2a1f07;
+  text-align: left;
+}
+
+.slide-card iframe {
+  width: 100%;
+  height: calc(100% - 52px);
+  border: none;
+  border-radius: 16px;
+}
 
 .navbar-left img {
   height: 35px;
