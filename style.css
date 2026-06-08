@@ -246,25 +246,25 @@ RESPONSIVE
   }
   
   a:link {
-    color: #5b3b15;
+    color: #523914;
     background-color: transparent;
     text-decoration: none;
   }
 
   a:visited {
-    color: #261f01;
+    color: #4D340F;
     background-color: transparent;
     text-decoration: none;
   }
 
   a:hover {
-    color: #2a1f07;
+    color: #69440E;
     background-color: transparent;
     text-decoration: underline;
   }
 
   a:active {
-    color: #795205;
+    color: #663F05;
     background-color: transparent;
     text-decoration: underline;
   }
